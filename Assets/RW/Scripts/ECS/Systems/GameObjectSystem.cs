@@ -25,8 +25,7 @@ namespace RW.Scripts.ECS.Systems
         {
             foreach (var entity in entities)
             {
-                entity.AddRWScriptsECSComponentDataMoveForvard(
-                    Transform.Instantiate<>(entity.rWScriptsECSComponentDataMoveForvard.speed));
+                //entity.AddRWScriptsECSComponentDataMoveForvard();
                 entity.AddRWScriptsECSComponentDataPosition(Vector3.zero);
             }
         }
